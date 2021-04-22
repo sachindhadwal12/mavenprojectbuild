@@ -29,7 +29,7 @@ class CalculatorTest {
 
       String result = calculator.displayData();
       assertEquals("Welcome",result);
-    }
+    } 11
 
     @Test
     public void shoudlReturnLenghtOfText(){
@@ -74,16 +74,16 @@ class CalculatorTest {
     }
 
 
-//    @Test
-//    public void shouldchecktheindexOfValues(){
-//        List<String> list = new ArrayList<>();
-//        List<String> stringList = spy(list);
-//        when(stringList.size()).thenReturn(10);
-//        assertEquals(10,stringList.size());
-//        list.add("mike");
-//        list.add("John");
-//        assertEquals("John",stringList.get(1));
-//    }
+   @Test
+   public void shouldchecktheindexOfValues(){
+       List<String> list = new ArrayList<>();
+       List<String> stringList = spy(list);
+       when(stringList.size()).thenReturn(10);
+       assertEquals(10,stringList.size());
+       list.add("mike");
+       list.add("John");
+       assertEquals("John",stringList.get(1));
+   }
 
 
 
