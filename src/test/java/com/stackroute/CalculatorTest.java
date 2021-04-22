@@ -29,7 +29,7 @@ class CalculatorTest {
 
       String result = calculator.displayData();
       assertEquals("Welcome",result);
-    } 11
+    } 
 
     @Test
     public void shoudlReturnLenghtOfText(){
